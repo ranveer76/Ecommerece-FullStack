@@ -1,0 +1,17 @@
+{
+  "name": "mern-ecommerece",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start",
+    "start": "npm-run-all --parallel backend frontend",
+    "install": "cd backend && npm install && cd ../frontend && npm run i"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
